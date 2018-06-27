@@ -24,7 +24,26 @@
   
    var statusChangeCallback = function(response){
       console.log(response);
+      if (response.status === 'connected') {
+        FB.api('/me', { locale: 'tr_TR', fields: 'name, email,birthday, hometown,education,gender,website,work' },
+          function(response) {
+            console.log(response.email);
+            console.log(response.name);
+            console.log(response.gender);
+            console.log(response.birthday);
+            console.log(response.hometown);
+            console.log(response.education);
+            console.log(response.website);
+            console.log(response.work);
+          });
+       } else if (response.status === 'not_authorized') {
+            console.log("Failed to Connect");
+        } else {
+            console.log("Logged Out");
+        }
+    
    }
+     
    function checkLoginState() {
       FB.getLoginStatus(function(response) {
         statusChangeCallback(response);
