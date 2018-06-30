@@ -40,7 +40,7 @@
                   url: completeUrl
                 }).then(function successCallback(response) {
                     $scope.test = 'Thank you '+userDetails.name+' for logging in!';
-                    $scope.userLoggedPic = 'http://graph.facebook.com/'+userDetails.uid+'/picture?type=square';
+                    $scope.userLoggedPic = 'http://graph.facebook.com/'+userDetails.uid+'/picture?type=normal';
                   }, function errorCallback(response) {
                     $scope.test = 'Failed';
                   });
