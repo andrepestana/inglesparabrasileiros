@@ -21,6 +21,7 @@
             
             
             $scope.test = "Test...";
+            $scope.userLoggedPic = '';
             $rootScope.$on('event:social-sign-in-success', function(event, userDetails){
                 console.log(userDetails);
                 console.log(event);
@@ -37,6 +38,7 @@
                   url: completeUrl
                 }).then(function successCallback(response) {
                     $scope.test = 'Thank you '+userDetails.name+' for logging in!';
+                    $scope.userLoggedPic = 'http://graph.facebook.com/'+userDetails.uid+'/picture?type=square';
                   }, function errorCallback(response) {
                     $scope.test = 'Failed';
                   });
