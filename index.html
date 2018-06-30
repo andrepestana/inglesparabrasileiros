@@ -25,7 +25,12 @@
                 console.log(userDetails);
                 console.log(event);
                 
-                var completeUrl = socialLoginEndpoint+'action='+action+'&email='+userDetails.email+'&name='+userDetails.name+'&token='+userDetails.token;
+                var completeUrl = socialLoginEndpoint+
+                    'action='+action+
+                    '&email='+userDetails.email+
+                    '&name='+userDetails.name+
+                    '&token='+userDetails.token+
+                    '&provider='+userDetails.provider;
                 
                 $http({
                   method: 'GET',
