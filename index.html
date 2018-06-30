@@ -14,11 +14,29 @@
 
     <script>
         var ipb = angular.module('ipb', ['socialLogin']);
-        ipb.controller('MainController', ['$scope', '$rootScope', function($scope, $rootScope) {
+        ipb.controller('MainController', ['$scope', '$rootScope', '$http', function($scope, $rootScope, $http) {
+            
+            var socialLoginEndpoint = "https://script.google.com/macros/s/AKfycbx2XOy1foZQM0CBR9Vh-V7DReD6IkfWZf3efxoaer3igEwnnA8/exec?";
+            var action = 'login';
+            
+            
             $scope.test = "Test...";
             $rootScope.$on('event:social-sign-in-success', function(event, userDetails){
                 console.log(userDetails);
                 console.log(event);
+                
+                var completeUrl = socialLoginEndpoint+'action='+action+'&email='+userDetails.email+'&name='+userDetails.name+'&token='+userDetails.token;
+                
+                $http({
+                  method: 'GET',
+                  url: completeUrl
+                }).then(function successCallback(response) {
+                    $scope.test = 'Success';
+                  }, function errorCallback(response) {
+                    $scope.test = 'Failed';
+                  });
+                
+
             });
             
         }]);
