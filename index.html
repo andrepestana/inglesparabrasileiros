@@ -10,6 +10,7 @@
         <img ng-src="{{ userLoggedPic }}" style="height: 100px; width: 100px;"></img>
         <p></p>
         <button fb-login type="button">facebook Login</button>
+        <button g-login type="button">google Login</button>
     </div>
     <script src="node_modules/angular/angular.min.js"></script>
     <script src="node_modules/angularjs-social-login/angularjs-social-login.js"></script>
@@ -40,7 +41,9 @@
                   url: completeUrl
                 }).then(function successCallback(response) {
                     $scope.test = 'Thank you '+userDetails.name+' for logging in!';
-                    $scope.userLoggedPic = 'http://graph.facebook.com/'+userDetails.uid+'/picture?type=normal';
+                    if(userDetails.provider === 'facebook'){
+                        $scope.userLoggedPic = 'http://graph.facebook.com/'+userDetails.uid+'/picture?type=normal';
+                    }
                   }, function errorCallback(response) {
                     $scope.test = 'Failed';
                   });
@@ -50,7 +53,7 @@
             
         }]);
         ipb.config(function(socialProvider) {
-            //socialProvider.setGoogleKey("YOUR GOOGLE CLIENT ID");
+            socialProvider.setGoogleKey("1050761755996-5nf00t8b9iiii96608o3uhlllhqrr1nf.apps.googleusercontent.com");
             //socialProvider.setLinkedInKey("YOUR LINKEDIN CLIENT ID");
             socialProvider.setFbKey({
                 appId: "1402554066740426",
