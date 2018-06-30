@@ -7,6 +7,8 @@
     <div ng-controller="MainController">
         <div ng-view></div>
         <p>{{ test }}</p>
+        <img ng-src="{{ userLoggedPic }}" style="height: 100px; width: 100px;"></img>
+        <p></p>
         <button fb-login type="button">facebook Login</button>
     </div>
     <script src="node_modules/angular/angular.min.js"></script>
@@ -21,7 +23,7 @@
             
             
             $scope.test = "Test...";
-            $scope.userLoggedPic = '';
+            $scope.userLoggedPic = 'https://www.servewell.com/assets/rodney-vieira-8e05e36ef5f243d5afe59fd023f094331a9ee730ea1f1838d015b15ef0a14cab.png';
             $rootScope.$on('event:social-sign-in-success', function(event, userDetails){
                 console.log(userDetails);
                 console.log(event);
