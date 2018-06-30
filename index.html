@@ -36,7 +36,7 @@
                   method: 'GET',
                   url: completeUrl
                 }).then(function successCallback(response) {
-                    $scope.test = 'Success';
+                    $scope.test = 'Thank you '+userDetails.name+' for logging in!';
                   }, function errorCallback(response) {
                     $scope.test = 'Failed';
                   });
