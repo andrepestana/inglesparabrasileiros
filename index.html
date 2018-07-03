@@ -1,69 +1,144 @@
-<html>
-<header>
-    <title>Inglês para Brasileiros</title>
-</header>
+<!DOCTYPE html>
+<html lang="en" ng-app="ipb">
 
-<body ng-app="ipb">
-    <div ng-controller="MainController">
-        <div ng-view></div>
-        <p>{{ test }}</p>
-        <img ng-src="{{ userLoggedPic }}" style="height: 100px; width: 100px;"></img>
-        <p></p>
-        <button fb-login type="button">facebook Login</button>
-        <button g-login type="button">google Login</button>
-    </div>
-    <script src="node_modules/angular/angular.min.js"></script>
-    <script src="node_modules/angularjs-social-login/angularjs-social-login.js"></script>
+<head>
 
-    <script>
-        var ipb = angular.module('ipb', ['socialLogin']);
-        ipb.controller('MainController', ['$scope', '$rootScope', '$http', function($scope, $rootScope, $http) {
-            
-            var socialLoginEndpoint = "https://script.google.com/macros/s/AKfycbx2XOy1foZQM0CBR9Vh-V7DReD6IkfWZf3efxoaer3igEwnnA8/exec?";
-            var action = 'login';
-            
-            
-            $scope.test = "Test...";
-            $scope.userLoggedPic = 'https://www.servewell.com/assets/rodney-vieira-8e05e36ef5f243d5afe59fd023f094331a9ee730ea1f1838d015b15ef0a14cab.png';
-            $rootScope.$on('event:social-sign-in-success', function(event, userDetails){
-                console.log(userDetails);
-                console.log(event);
-                
-                var completeUrl = socialLoginEndpoint+
-                    'action='+action+
-                    '&email='+userDetails.email+
-                    '&name='+userDetails.name+
-                    '&token='+userDetails.token+
-                    '&provider='+userDetails.provider;
-                
-                $http({
-                  method: 'GET',
-                  url: completeUrl
-                }).then(function successCallback(response) {
-                    $scope.test = 'Thank you '+userDetails.name+' for logging in!';
-                    if(userDetails.provider === 'facebook'){
-                        $scope.userLoggedPic = 'http://graph.facebook.com/'+userDetails.uid+'/picture?type=normal';
-                    } else {
-                        $scope.userLoggedPic = userDetails.imageUrl;
-                    }
-                  }, function errorCallback(response) {
-                    $scope.test = 'Failed';
-                  });
-                
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-            });
-            
-        }]);
-        ipb.config(function(socialProvider) {
-            socialProvider.setGoogleKey("1050761755996-3qjs152iqdiiga920sle88gc8jl54gcc.apps.googleusercontent.com");
-            //socialProvider.setLinkedInKey("YOUR LINKEDIN CLIENT ID");
-            socialProvider.setFbKey({
-                appId: "1402554066740426",
-                apiVersion: "v3.0"
-            });
-        });
+    <title>Inglês Para Brasileiros</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/inglesparabrasileiros.css" rel="stylesheet">
+    <link href="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-csp.css" rel="stylesheet">
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body ng-controller="MainController">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <!--img src="http://placehold.it/150x50&text=Logo" alt="" -->
+					Inglês Para Brasileiros
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div>
+            {{ message }}
+        </div>
         
-    </script>
+        <!-- Heading Row -->
+        <div class="row">
+            <div class="col-md-8">
+                <img class="img-responsive img-rounded" src="http://placehold.it/900x350" alt="">
+            </div>
+            <!-- /.col-md-8 -->
+            <div class="col-md-4">
+                <h1>Business Name or Tagline</h1>
+                <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
+                <a class="btn btn-primary btn-lg" href="#">Call to Action!</a>
+            </div>
+            <!-- /.col-md-4 -->
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Call to Action Well -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="well text-center">
+                    This is a well that is a great spot for a business tagline or phone number for easy access!
+                </div>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-md-4" ng-repeat="article in articles">
+                <h2>{{ article.title }}</h2>
+                <p>{{ article.content }}</p>
+            </div>
+         </div>
+            <!-- /.row -->
+        
+        
+        
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Inglês Para Brasileiros</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="node_modules/angular/angular.min.js"></script>
+    
+    <script src="js/main.js"></script>
+    <script src="js/social.js"></script>
+    
+    <script src="node_modules/angularjs-social-login/angularjs-social-login.js"></script>
+    <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+    <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+    <!--script src="node_modules/showdown/bin/showdown.js"></script-->
+    
+
 </body>
 
 </html>
