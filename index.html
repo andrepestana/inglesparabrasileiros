@@ -103,7 +103,7 @@
         <div class="row">
             <div class="col-md-4" ng-repeat="article in articles">
                 <h2>{{ article.title }}</h2>
-                <p>{{ article.content | markdown }}</p>
+                <p markdown-to-html="article.content"></p>
             </div>
          </div>
             <!-- /.row -->
@@ -129,6 +129,7 @@
     <script src="js/bootstrap.min.js"></script>
     
     <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-sanitize/angular-sanitize.min.js"></script>
     
     <script src="js/main.js"></script>
     <script src="js/social.js"></script>
@@ -136,8 +137,8 @@
     <script src="node_modules/angularjs-social-login/angularjs-social-login.js"></script>
     <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
     <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
-    <script src="node_modules/angular-sanitize/angular-sanitize.min.js"></script>
-    <script src="node_modules/showdown/bin/showdown.js"></script>
+    <script src="node_modules/showdown/dist/showdown.min.js"></script>
+    <script src="node_modules/ng-showdown/dist/ng-showdown.min.js"></script>
     
 
 </body>
