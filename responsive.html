@@ -106,8 +106,8 @@ Change the window width to see last columns transposing when they don't fit in i
             <li class="transposedColumn transposedColumn12">
               Column12
             </li>
-            <li class="transposedColumn transposedColumn3">
-              Column3
+            <li class="transposedColumn transposedColumn13">
+              Column13
             </li>
             <li class="transposedColumn transposedColumn14">
               Column14
@@ -194,8 +194,8 @@ Change the window width to see last columns transposing when they don't fit in i
             <li class="transposedColumn transposedColumn12">
               Column12
             </li>
-            <li class="transposedColumn transposedColumn3">
-              Column3
+            <li class="transposedColumn transposedColumn13">
+              Column13
             </li>
             <li class="transposedColumn transposedColumn14">
               Column14
@@ -282,8 +282,8 @@ Change the window width to see last columns transposing when they don't fit in i
             <li class="transposedColumn transposedColumn12">
               Column12
             </li>
-            <li class="transposedColumn transposedColumn3">
-              Column3
+            <li class="transposedColumn transposedColumn13">
+              Column13
             </li>
             <li class="transposedColumn transposedColumn14">
               Column14
@@ -370,8 +370,8 @@ Change the window width to see last columns transposing when they don't fit in i
             <li class="transposedColumn transposedColumn12">
               Column12
             </li>
-            <li class="transposedColumn transposedColumn3">
-              Column3
+            <li class="transposedColumn transposedColumn13">
+              Column13
             </li>
             <li class="transposedColumn transposedColumn14">
               Column14
@@ -458,8 +458,8 @@ Change the window width to see last columns transposing when they don't fit in i
             <li class="transposedColumn transposedColumn12">
               Column12
             </li>
-            <li class="transposedColumn transposedColumn3">
-              Column3
+            <li class="transposedColumn transposedColumn13">
+              Column13
             </li>
             <li class="transposedColumn transposedColumn14">
               Column14
@@ -532,7 +532,7 @@ var makeTableFitInDiv = function makeTableFitInDiv(tableId, divId) {
   var transposeCell = function transposeCell(columnNumber) {
     
 	if (columnNumber > 1 && isParentDivSmallerThanTable()) { //columnNumber > 1 (first column never transpose)
-	  
+
 	  // Hide current column
 	  $(tableIdSelector+' td:nth-child('+columnNumber+'),th:nth-child('+columnNumber+')').hide();
       
