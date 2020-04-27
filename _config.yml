@@ -1,12 +1,12 @@
 # Site
 name: 'Inglês para Brasileiros'
 description: 'A sua fonte de informação para aprender inglês.'
-logo: 'assets/images/logo.png'
+logo: 'assets/images/logo.jpg'
 favicon: 'assets/images/favicon.ico'
-baseurl: 'http://inglesparabrasileiros.com.br/'
+#baseurl: 'http://inglesparabrasileiros.com.br/'
 disqus: 'inglesparabrasileiros.com.br'
 email: 'andrepestana@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+mailchimp-list: 'https://inglesparabrasileiros.us8.list-manage.com/subscribe/post?u=d45e3015a791bfb713151f683&amp;id=b974d510a2'
 
 include: ["_pages"]
 permalink: /:title/
