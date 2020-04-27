@@ -1,1 +1,1 @@
-Sitemap: /https://inglesparabrasileiros.com.br/sitemap.xml
+Sitemap: /sitemap.xml
