@@ -9,9 +9,7 @@ description: "A sua fonte de informação para aprender inglês."
 <div class="container">
     
 {% if page.url == "/" %}
-    
-    
-    
+
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 <div class="row remove-site-content-margin">
     
@@ -31,7 +29,7 @@ description: "A sua fonte de informação para aprender inglês."
     </p>
     <div>
         <small class="d-block text-muted">
-            In <span class="catlist">
+            <span class="catlist">
                 {% for category in latest_post.categories %}
                 <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                 {% endfor %}
@@ -62,7 +60,7 @@ description: "A sua fonte de informação para aprender inglês."
                     <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        In <span class="catlist">
+                        <span class="catlist">
                         {% for category in second_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
@@ -89,7 +87,7 @@ description: "A sua fonte de informação para aprender inglês."
                     <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        In <span class="catlist">
+                        <span class="catlist">
                         {% for category in third_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
@@ -116,7 +114,7 @@ description: "A sua fonte de informação para aprender inglês."
                     <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        In <span class="catlist">
+                        <span class="catlist">
                         {% for category in fourth_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
@@ -131,7 +129,7 @@ description: "A sua fonte de informação para aprender inglês."
     </div>
     
 </div>
-    
+
 <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
 {% for post in site.posts %} 
 {% if post.tags contains "sticky" %}

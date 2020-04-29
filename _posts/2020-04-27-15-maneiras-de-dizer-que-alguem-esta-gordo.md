@@ -2,7 +2,7 @@
 layout: post
 title:  "Várias maneiras de dizer que alguém está gordo."
 categories: [ Vocabulário, Expressões ]
-image: assets/images/2020-04-27-varias-maneiras-de-dizer-que-alguem-esta-gordo/01.png
+image: assets/images/2020-04-27-15-maneiras-de-dizer-que-alguem-esta-gordo/01.png
 comments: true
 ---
 Mark do canal Mad English TV publicou um vídeo onde ele nos mostra 15 maneiras de dizer que alguém está gordo. Assim como em português nós temos várias maneiras diferentes para nos referirmos ao peso de alguém, em inglês também temos várias maneiras de indicar que alguém está com sobrepeso. Devemos tomar muito cuidado ao se referir ao peso ou à forma física de outra pessoa. Portanto, precisamos usar a forma adequada a cada caso.
