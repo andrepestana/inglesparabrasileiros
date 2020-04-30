@@ -2,9 +2,9 @@
 layout: post
 title:  "O jeito mais fácil de aprender phrasal verbs"
 author: andre-pestana
-categories: [ Jekyll, tutorial ]
-image: https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
-tags: [summer]
+categories: [ Phrasal Verbs ]
+image: assets/images/2020-04-06-o-jeito-mais-facil-de aprender-phrasal-verbs/01.jpg
+
 ---
 Phrasal verbs são frases com um verbo e um outro elemento como um advérbio ou preposição ou conjunto ou combinação de ambos. Estudar phrasal verbs não é uma tarefa fácil pois se trata de decorar centenas de frases que nem sempre parecem fazer lógica. Christian do Canguro English fez uma ótima explicação sobre phrasal verbs que poderá ajudar você a entender melhor os phrasal verbs.
 
@@ -39,7 +39,10 @@ No caso de disputa pelo biscoito poderíamos dizer para alguém: *get your hand 
 **Off** (*perder contato*) dá sentido de perda de contato quando falamos no sentido literal: *I hope this stain will come off my shirt* (*espero que esta mancha vá sair da minha camisa*) or em *see off* (*despedir-se*). No sentido abstrato temos: *I'm better off now* (*estou melhor agora*) no sentido de que sua vida estava ruim, mas se distanciou da situação ruim agora. 
 *Keep off* (*manter afastado*) nos ajuda a entender outros phrasal verbs como *cut someone off* (*cortar contato com alguém*).
 
-**In** (*dentro*) traz sentido literal de algo estar contido por um recipiente (mesmo que o recipiente não tenha limites bem definidos como um grupo de amigos ou uma floresta). O objecto em questão pode ainda estar totalmente dentro do recipiente ou apenas parte dele. 
+**In** (*dentro*) traz sentido literal de algo estar contido por um recipiente (mesmo que o recipiente não tenha limites bem definidos como um grupo de amigos ou uma floresta). O objeto em questão pode ainda estar totalmente dentro do recipiente ou apenas parte dentro dele. 
+Nossa mente pode ser considerada um recipiente onde pode-se colocar ideias e informacação. Por isso temos phrasal verbs como *take in a story* (*assimilar uma história*). Acrescentar é outro sentido que podemos ter como em: *join in* (*juntar-se*), *add in* (*incluir*).
+
+**Out** (*fora*) também está relacionado ao recipiente, mas do lado de fora. *go out* (*sair*). Em recipientes mais abstratos podemos perceber o sentido de *stretch out* (*esticar-se*) como se o recipiente fosse nosso corpo. Se todos os itens são vendido (e portanto já sairam da loja) pode dizer *all itens are sold out* (*todos os itens foram vendidos*) ou *We've run out of gas* (*A nossa gasolina acabou*). *Keep out* (*manter fora*) pode explicar o sentido de *block out* (*bloquear*) ou *cross out* (*descartar*). Como você poderia fazer que algo estar fora do seu conhecimento, *out* pode ser usado em phrasal verbs relacionados a descobrir, encontrar como em: *find out*.
 
 
 Assista abaixo a primeira parte da explicação sobre phrasal verbs e deixe suas dúvidas nos comentários no final da página.
