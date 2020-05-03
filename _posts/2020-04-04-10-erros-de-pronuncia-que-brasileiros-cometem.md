@@ -11,28 +11,28 @@ Abaixo está a lista dos principais erros:
 1 - **Vogais diferentes são pronunciadas da mesma forma**
 
   Como em: 
-  - *sheep* e *ship*
-  - *pool* e *pull*
-  - *bed* and *bad*
-  - *head* and *had*
+  - *<say-it>sheep</say-it>* e *<say-it>ship</say-it>*
+  - *<say-it>pool</say-it>* e *<say-it>pull</say-it>*
+  - *<say-it>bed</say-it>* and *<say-it>bad</say-it>*
+  - *<say-it>head</say-it>* and *<say-it>had</say-it>*
   
 Para resolver este problema ela sugere começar a perceber esses novos sons para o falante da língua portuguesa e começar a perceber a diferença entre eles.
 
 2 - **Adicionar uma vogal no final das palavras que terminam com uma consoante**
 
   Como em:
-  - *work* (brasileiros geralmente falam ~~workee~~)
-  - *skype* (brasileiros geralmente falam ~~skypee~~)
-  - *practice* (brasileiros geralmente falam ~~practicee~~)
+  - *<say-it>work</say-it>* (brasileiros geralmente falam ~~workee~~)
+  - *<say-it>skype</say-it>* (brasileiros geralmente falam ~~skypee~~)
+  - *<say-it>practice</say-it>* (brasileiros geralmente falam ~~practicee~~)
 
 Para resolver este problema, Hadar sugere gravar a própria voz falando uma lista dessas palavras para perceber a diferença e mudar esse hábito não intencional.
 
 3 - **Palavras terminadas em 'd' e 't' soam como 'dj' e 'tch'**
 
   Como em:
-  - *made* (falado por brasileiros geralmente soa como ~~meidj~~)
-  - *cat* (falado por brasileiros geralmente soa como ~~catch~~)
-  - *bad* (falado por brasileiros geralmente soa como ~~badj~~)
+  - *<say-it>made</say-it>* (falado por brasileiros geralmente soa como ~~meidj~~)
+  - *<say-it>cat</say-it>* (falado por brasileiros geralmente soa como ~~catch~~)
+  - *<say-it>bad</say-it>* (falado por brasileiros geralmente soa como ~~badj~~)
 
 Devemos prestar atenção a esses detalhes e bloquear o fluxo de ar ao final de cada palavra pois, segundo ela, isso irá evitar confusões para quem estiver ouvindo.
    
@@ -40,29 +40,29 @@ Devemos prestar atenção a esses detalhes e bloquear o fluxo de ar ao final de 
 
    Isso acontece porque no português não destacamos o som do 'm' quando este aparece no final de uma palvra. Este 'm' no final das palavras em português soa mais como um 'n'. O som de 'm' que ela se refere seria como em: "mmm", onde os lábios se encostam totalmente. Esse problema de pronúncia pode acontecer quando pronunciamos:
 
-  - *game* (pode soar como ~~gain~~)
-  - *rum* (pode soar como ~~rung~~)
+  - *<say-it>game</say-it>* (pode soar como ~~gain~~)
+  - *<say-it>rum</say-it>* (pode soar como ~~rung~~)
   
 Para resolver devemos procurar listas de palavras que terminam com som de 'm' no google e treinar a pronúncia dentro de frases.
 
 5 - **A pronúncia errada do 'th'**
 
-  Como não há o th em português, esse é um problema muito comum para brasileiros ao pronunciar palavras com 'th' e geralmente trocamos por outros sons que temos em português como 't' ou 'd'. Trocamos por 't' quando temos um *voiceless* 'th' como em *think* (~~tink~~) ou 'd' quando temos um *voiced* 'th' como em *they* (~~dei~~). Precisamos então deixar a língua para frente e deixar o ar passar para que o som do 'th' seja pronunciado corretamente (mesmo que o som pareça muito estranho).
+  Como não há o th em português, esse é um problema muito comum para brasileiros ao pronunciar palavras com 'th' e geralmente trocamos por outros sons que temos em português como 't' ou 'd'. Trocamos por 't' quando temos um *voiceless* 'th' como em *<say-it>think</say-it>* (~~tink~~) ou 'd' quando temos um *voiced* 'th' como em *<say-it>they</say-it>* (~~dei~~). Precisamos então deixar a língua para frente e deixar o ar passar para que o som do 'th' seja pronunciado corretamente (mesmo que o som pareça muito estranho).
 
 6 -  **O som da letra 'l' é trocado pelo som da letra 'w' or 'oo'**
 
-  O som do 'l' em inglês pode ser *dark 'l'* como em * Brazil* ou light 'l' como em *lap*. 
+  O som do 'l' em inglês pode ser *dark 'l'* como em *<say-it>Brazil</say-it>* ou light 'l' como em *<say-it>lap</say-it>*. 
 
-  - *ball* soa como ~~bowl~~
-  - *people* soa como ~~peepow~~
+  - *<say-it>ball</say-it>* soa como ~~bowl~~
+  - *<say-it>people</say-it>* soa como ~~peepow~~
 
 Nós temos a tendência de deixar os lábios arredondados ao pronunciar o 'l' e devemos evitar ao falar inglês. Um espelho neste caso pode ajudá-lo a perceber o que está fazendo de errado. Outra coisa recomendada por ela é sempre levantar a ponta da língua a ponto de encostar no céu da boca quando pronunciar uma palavra com 'l' no final para assegurar que não pronunciar da forma errada.
 
 7 - **Trocar a sílaba tônica**
 
 Na palavras da língua portuguesa, geralmente é estressada uma das últimas três sílabas da palavra, normalmente a penúltima. No inglês nem sempre é assim e normalmente usamos o mesmo padrão da língua portuguesa no inglês. Então:
-  - *FRUStrating* é pronunciado como ~~frusTRAting~~
-  - *COMfortable* é pronunciado como ~~comforTABLE~~
+  - *<say-it>FRUStrating</say-it>* é pronunciado como ~~frusTRAting~~
+  - *<say-it>COMfortable</say-it>* é pronunciado como ~~comforTABLE~~
   
 Precisamos então estarmos conscientes de que isso existe e é importante para a clareza da nossa pronúncia e assegurar que estamos percebendo a sílaba tônica da palavra a fim de conseguir replicar a pronúncia.
 
@@ -75,14 +75,14 @@ No português brasileiro temos alguns sotaques como o sotaque "caipira" onde o '
 
 Schwa é um som do inglês que não existe no português. Este som é como uma redução do som da vogal e ocorre em sílabas não estressadas. Essa vogal é difícil de ser detectada por nós brasileiros e ocorre em palavras como:
 
-  - *about*
-  - *against*
-  - *melody*
+  - *<say-it>about</say-it>*
+  - *<say-it>against</say-it>*
+  - *<say-it>melody</say-it>*
   
 Portanto, é natural que os brasileiros troquem o som do schwa pelo som aberto da vogal como em:
-  - ~~COMputer~~ para *computer*   
-  - ~~hoLEEday~~ para *holiday*
-  - ~~foCOOs~~ para *focus*
+  - ~~COMputer~~ para *<say-it>computer</say-it>*   
+  - ~~hoLEEday~~ para *<say-it>holiday</say-it>*
+  - ~~foCOOs~~ para *<say-it>focus</say-it>*
   
 Para reproduzir o schwa devemos relaxar os músculos da boca e fazem um som entre as vogais (não é nem 'a' nem 'e' nem 'i' nem 'o' e nem 'u')
 
