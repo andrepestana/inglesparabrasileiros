@@ -27,6 +27,7 @@ authors:
       bio:            "Olá, meu nome é André Pestana e sou desenvolvedor de sistemas, adoro tecnologia, psicologia, artes e aprendizado de línguas."
       email:          andrepestana@gmail.com
       twitter:        https://twitter.com/andre_pestana
+      instagram:      https://www.instagram.com/superpestana/
 
     ivanilde-pestana:
       name:           Ivanilde Pestana
@@ -35,6 +36,7 @@ authors:
       bio:            "Testadora de Software, adoro dançar, viajar e filmes que me emocionam."
       email:          ivanildel@gmail.com
       twitter:        https://twitter.com/IvanildePestana
+      instagram:      https://www.instagram.com/ivanildempestana/
  
 # Defaults
 defaults:
