@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "10 erros de pronuncia que brasileiros cometem"
-categories: [ Pronúncia ]
+categories: [ speaking, pronunciation ]
 image: assets/images/2020-04-04-10-erros-de-pronuncia-que-brasileiros-cometem/01.png
+tags: [featured]
 ---
 Hadar nos trouxe 10 erros de pronúncia que nós brasileiros cometemos quando falamos inglês, em especial o inglês americano. Há vários sons que tentamos produzir, mas que por estarmos acostumados a falar o português, precisamos fazer movimentos diferentes com a língua ou músculo da face ou pescoço e ela nos ajuda a identificar e resolver esses problemas. Claro que não é tão simples e precisamos treinar bastante para nos acostumarmos e lembrarmos de mudar a forma como falamos.
 
