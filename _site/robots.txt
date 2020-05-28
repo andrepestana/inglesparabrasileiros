@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/sitemap.xml
+Sitemap: https://inglesparabrasileiros.com.br/sitemap.xml
