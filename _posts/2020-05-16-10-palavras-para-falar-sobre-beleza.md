@@ -11,7 +11,7 @@ Alisha Ivelich do canal “Learn English with EnglishClass101.com”, publicou u
 
 Vamos começar!
 
-1 - **<say-it>Make up</say-it>**
+1 - **<say-it>Makeup</say-it>**
 : *Maquiagem*
 
 <say-it>I wear makeup almost everyday.</say-it>
@@ -22,7 +22,7 @@ Vamos começar!
 : *Sombra*
 
 <say-it>What kind of eyeshadow do you use?</say-it>
-*Qual tipo de sombra você usa.* 
+*Qual tipo de sombra você usa?* 
 
 
 3 - **<say-it>Eyeliner</say-it>**
