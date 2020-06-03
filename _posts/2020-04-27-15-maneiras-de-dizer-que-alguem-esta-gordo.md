@@ -2,7 +2,7 @@
 layout: post
 title:  "Várias maneiras de dizer que alguém está gordo."
 categories: [ vocabulary, expressions, speaking ]
-image: assets/images/2020-04-27-15-maneiras-de-dizer-que-alguem-esta-gordo/01.jpeg
+image: assets/images/2020-04-27-15-maneiras-de-dizer-que-alguem-esta-gordo/01.jpg
 comments: true
 tags: [featured]
 ---

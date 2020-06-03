@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="container">
+<h3 class="font-weight-bold spanborder"><span>{{page.title}}</span></h3>
+<div class="page-content">
+{{ content }}
+
+Leia a matéria original em: <a href="{{page.link}}" target="_blank">{{page.link}}</a>
+<!-- Comments -->
+{% if page.comments == true %}
+{% include comments.html %}
+{% endif %}
+</div>
+</div>

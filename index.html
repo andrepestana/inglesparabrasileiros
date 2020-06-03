@@ -19,7 +19,7 @@ description: "A sua fonte de informação para aprender inglês."
     <a href="{{site.baseurl}}{{latest_post.url}}">
     <!-- <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>      -->
         <div class="text-center">
-            <img class="w-50" src="{% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %}{{ latest_post.image | absolute_url }}{% endif %}" alt="{{ latest_post.title }}">
+            <img style="max-height: 300px;" src="{% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %}{{ latest_post.image | absolute_url }}{% endif %}" alt="{{ latest_post.title }}">
         </div>
     </a>
     <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
@@ -29,7 +29,7 @@ description: "A sua fonte de informação para aprender inglês."
     <p class="excerpt">
         {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
     </p>
-    <div>
+    <!-- <div>
         <small class="d-block text-muted">
             <span class="catlist">
                 {% for category in latest_post.categories %}
@@ -40,7 +40,7 @@ description: "A sua fonte de informação para aprender inglês."
         <small class="text-muted">
             {{ latest_post.date | date: '%b %d, %Y' }}
         </small>
-    </div>
+    </div> -->
     </div>
     </div>
     </div>
@@ -106,14 +106,14 @@ description: "A sua fonte de informação para aprender inglês."
         <div class="mb-3 d-flex align-items-center">                
                 {% if fourth_post.image %}
                 <div class="col-md-4">
-                <a href="{{site.baseurl}}{{fourth_post.url}}">
-                <img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
-                </a>
+                    <a href="{{site.baseurl}}{{fourth_post.url}}">
+                        <img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
+                    </a>
                 </div>
                 {% endif %}                
                 <div>
                     <h2 class="mb-2 h6 font-weight-bold">
-                    <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
+                        <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
                         <span class="catlist">
@@ -126,10 +126,28 @@ description: "A sua fonte de informação para aprender inglês."
                         {{ fourth_post.date | date: '%b %d, %Y' }}
                     </small>
                 </div>
-            </div>
+        </div>
         
+        <!-- <h2 class="h4 font-weight-bold">Notícias</h2>
+        <div class="mb-3 d-flex align-items-center">
+            <div class="col-md-12">
+                <ul>
+                    <li>
+                        {%- assign first_news = site.news[0] -%}
+                        <a class="text-muted smoothscroll" href="{{site.baseurl}}{{first_news.url}}">{{ first_news.title }}</a>
+                    </li>
+                    <li>
+                        {%- assign second_news = site.news[1] -%}
+                        <a class="text-muted smoothscroll" href="{{site.baseurl}}{{second_news.url}}">{{ second_news.title }}</a>
+                    </li>
+                    <li>
+                        {%- assign third_news = site.news[2] -%}
+                        <a class="text-muted smoothscroll" href="{{site.baseurl}}{{third_news.url}}">{{ third_news.title }}</a>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
     </div>
-    
 </div>
 
 <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
@@ -152,9 +170,6 @@ description: "A sua fonte de informação para aprender inglês."
 </div> 
 {% endif %}
 {% endfor %}
-
-
-    
 
 
 {% endif %} <!--endif page url is / -->
@@ -212,6 +227,7 @@ description: "A sua fonte de informação para aprender inglês."
     </div>
     
 </div>
+
 
 
 

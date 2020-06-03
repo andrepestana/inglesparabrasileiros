@@ -55,6 +55,12 @@ defaults:
     values:
       layout: page
       
+  # all news
+  - scope:
+      path: "_news"
+    values:
+      layout: news
+
 # Syntax
 markdown: kramdown
 highlighter: rouge
@@ -62,7 +68,9 @@ highlighter: rouge
 # Paginate
 paginate: 10
 
-
+collections:
+  news:
+    output: true
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]

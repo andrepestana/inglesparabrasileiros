@@ -3,7 +3,7 @@ layout: post
 title:  "Usos da palavra \"way\""
 author: ivanilde-pestana
 categories: [ vocabulary, expressions ]
-image: assets/images/2020-05-08-usos-da-palavra-way/01.jpeg
+image: assets/images/2020-05-08-usos-da-palavra-way/01.jpg
 tags: [featured]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Formas alternativas para dizer \"I don't know\""
 author: ivanilde-pestana
 categories: [ speaking, expressions ]
-image: assets/images/2020-05-03-formas-alternativas-para-dizer-i-dont-know/01.jpeg
+image: assets/images/2020-05-03-formas-alternativas-para-dizer-i-dont-know/01.jpg
 tags: [featured]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "O jeito mais fácil de aprender phrasal verbs (primeira parte)"
 author: andre-pestana
 categories: [ phrasal verbs ]
-image: assets/images/2020-04-06-o-jeito-mais-facil-de aprender-phrasal-verbs/01.jpeg
+image: assets/images/2020-04-06-o-jeito-mais-facil-de aprender-phrasal-verbs/01.jpg
 tags: [featured]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Frases sobre tempo"
 author: ivanilde-pestana
 categories: [ vocabulary, expressions ]
-image: assets/images/2020-05-09-frases-sobre-tempo/01.jpeg
+image: assets/images/2020-05-09-frases-sobre-tempo/01.jpg
 tags: [featured]
 ---
 
